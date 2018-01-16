@@ -5,8 +5,9 @@
   position: relative;
   top: 10vh;
   left:20vw;
+  overflow: hidden;
 }
-.terreno div{
+.terreno div:not(.martillo){
   width: 20vw;
   height: 20vw;
   border-radius: 100%;
@@ -19,8 +20,10 @@
   background-color: transparent;
   display:inline-block;
   position: absolute;
+
 }
 .martillo img{
+
   width: 150px;
   height: 150px;
 }
